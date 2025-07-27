@@ -1,4 +1,47 @@
-header a{
+header a:hover{
     background: teal;
     color:white;
+}
+header{
+    background-color:black;
+    color: red;
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    width: 1500px;
+    height: 50px;
+    top: 0%;
+    left:0%
+}
+.heading1{
+    position:absolute;
+    top:10%;
+}
+.sec1{
+    position: absolute;
+    top:25%;
+}
+.sec2{
+    position: absolute;
+    top:60%;
+}
+.sec3{
+    position: absolute;
+    top:120%;
+}
+.sec4{
+    position: absolute;
+    top:200%;
+}
+
+h1{
+    text-transform: capitalize;
+    background-image: url(WHAT-I-LOVE-PROJECT/images/header-background.jpg);
+}
+p{
+    text-align: justify;
+}
+a:visited{
+    color:blueviolet
 }
