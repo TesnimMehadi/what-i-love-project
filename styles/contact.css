@@ -3,13 +3,14 @@ header a:hover{
     color:white;
 }
 header{
-    background-color:deeppink;
-    height: 36px;
+    background-color:black;
+    background: linear-gradient(to right, darkgrey, black);
     display: flex;
     justify-content: space-around;
     position:fixed;
     width: 1500px;
     height: 50px;
+    padding-top: 10px;
     top: 0%;
     left:0%
 }
